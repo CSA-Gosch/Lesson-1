@@ -7,11 +7,11 @@ public class StringTester {
 
         System.out.println(weatherCondition.indexOf("thunder"));
 
-//        String weatherCondition1 = new String("mixed rain and snow");
-//        String weatherCondition2 = new String("mixed rain and snow");
-//
-//        boolean result1 = (weatherCondition1 == weatherCondition2);
-//        boolean result2 = (weatherCondition1.equals(weatherCondition2);
+        String weatherCondition1 = new String("mixed rain and snow");
+        String weatherCondition2 = new String("mixed rain and snow");
+
+        boolean result1 = (weatherCondition1 == weatherCondition2);
+        boolean result2 = (weatherCondition1.equals(weatherCondition2));
 
         System.out.println(WeatherConditionals.getWeatherAdvice(32, "heavy snow"));
         System.out.println(WeatherConditionals.getWeatherAdvice(34, "sunny"));

@@ -5,7 +5,7 @@ public class WeatherConditionals {
         boolean windy = false;
         boolean sunny = false;
         boolean snow = false;
-        String result
+        String result = "";
         if(description.indexOf("windy") <= 0 && temperature == 32){
             windy = true;
             return "Too windy or cold! Enjoy watching the weather through the window.";
@@ -27,9 +27,33 @@ public class WeatherConditionals {
             return "Too windy or cold! Enjoy watching the weather through the window.";
         }
 
-
-
+        return result;
 
 
     }
+    public static String getHikingAdvice(int temperature, int windchill, int humidity, String description)
+    {
+        String result = "";
+
+        if(description.indexOf("windy") <= 0 && temperature < 32){
+            return "Too windy or cold! Enjoy watching the weather through the window.";
+        }
+       else if(description.indexOf("sunny") <= 0 && temperature  == 55){
+            return "It’s safe to go outside, but just a tad chilly.";
+        }
+        else if(description.indexOf("snow") <= 0 && temperature == 33){
+            return "Pack some snow boots, and watch out";
+        }
+        else if(description.indexOf("snow") <= 0 && temperature == 30){
+            return "Too windy or cold! Enjoy watching the weather through the window.";
+        }
+        else if(description.indexOf("windy") <= 0 && temperature == 30){
+            return "Too windy or cold! Enjoy watching the weather through the window.";
+
+        }
+        return result;
+
+
+    }
+
 }
