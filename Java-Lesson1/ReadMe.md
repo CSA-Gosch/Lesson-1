@@ -47,3 +47,10 @@ and other wise, either with a constructor or method, it's primitive.</p>
 . Both work but having two works better in order to have better random numbers.</p>
 <p>Conclusion 1: The length of the string would throw an out-of-bounds error, so the patterns ensure that error doesn't happen.</p>
 <p>Conclusion 2: One of those examples has a bound of 11, and the other of ten</p>
+
+#Lesson 1.1.6
+<p>#1: Chatbots have patterns to identify inside strings and other objects in responses, 
+       keywords are essential to any chatbot keywords like 
+       "love" "Yes" "No" "Know" and "If" to name a few.
+       Response might look like "I also love that" </p>
+<p>#2:/p> <IMG SRC="1_1_6.PNG>
