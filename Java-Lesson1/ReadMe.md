@@ -53,4 +53,4 @@ and other wise, either with a constructor or method, it's primitive.</p>
        keywords are essential to any chatbot keywords like 
        "love" "Yes" "No" "Know" and "If" to name a few.
        Response might look like "I also love that" </p>
-<p>#2:/p> <img src="1_1_6.PNG>
+<p>#2:</p> <img src="1_1_6.PNG>
